@@ -1,0 +1,5 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_001_persistencia_test.dart
+00:00 +0: El nuevo estado se conserva tras cerrar y reabrir la app
+00:00 +1: Una incidencia nueva sigue existiendo tras reiniciar
+00:00 +2: Cambiar el estado de un registro no altera los demás
+00:00 +3: All tests passed!
