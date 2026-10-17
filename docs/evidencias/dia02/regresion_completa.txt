@@ -1,0 +1,2 @@
+00:00 +12: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_001_persistencia_test.dart: Cambiar el estado de un registro no altera los demás
+00:00 +13: All tests passed!
