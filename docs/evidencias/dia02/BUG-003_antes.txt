@@ -1,0 +1,14 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_003_contadores_test.dart
+00:00 +0: Datos iniciales: 5 pendientes, 2 en proceso, 3 resueltas
+00:00 +1: Pendiente → Resuelta y de regreso actualiza el tablero
+00:00 +1 -1: Pendiente → Resuelta y de regreso actualiza el tablero [E]
+  Expected: <4>
+    Actual: <5>
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/bug_003_contadores_test.dart 31:5              main.<fn>
+00:00 +1 -1: Registrar un caso nuevo y reiniciar mantiene el conteo
+00:00 +2 -1: Los totales no dependen de la búsqueda
+00:00 +3 -1: Some tests failed.
+Failing tests:
+  /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_003_contadores_test.dart: Pendiente → Resuelta y de regreso actualiza el tablero
