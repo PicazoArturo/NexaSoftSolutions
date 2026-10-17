@@ -1,0 +1,31 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_001_persistencia_test.dart
+00:00 +0: El nuevo estado se conserva tras cerrar y reabrir la app
+00:00 +0 -1: El nuevo estado se conserva tras cerrar y reabrir la app [E]
+  Expected: 'Resuelta'
+    Actual: 'Pendiente'
+     Which: is different.
+            Expected: Resuelta
+              Actual: Pendiente
+                      ^
+             Differ at offset 0
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/bug_001_persistencia_test.dart 17:5            main.<fn>
+00:00 +0 -1: Una incidencia nueva sigue existiendo tras reiniciar
+00:00 +1 -1: Cambiar el estado de un registro no altera los demás
+00:00 +1 -2: Cambiar el estado de un registro no altera los demás [E]
+  Expected: 'En proceso'
+    Actual: 'Pendiente'
+     Which: is different.
+            Expected: En proceso ...
+              Actual: Pendiente
+                      ^
+             Differ at offset 0
+  INC-103
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/bug_001_persistencia_test.dart 39:7            main.<fn>
+00:00 +1 -2: Some tests failed.
+Failing tests:
+  /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_001_persistencia_test.dart: Cambiar el estado de un registro no altera los demás
+  /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_001_persistencia_test.dart: El nuevo estado se conserva tras cerrar y reabrir la app
