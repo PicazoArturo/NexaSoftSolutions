@@ -25,7 +25,7 @@ Este reporte sigue el orden de las secciones de `Bitacora_Diaria.docx` para que 
 |---|---|
 | Mapa de componentes del proyecto (ver abajo) | Hecho. Los tres defectos están en `lib/services/gestor_incidencias.dart`. |
 | Corregir la autoría de git y etiquetar la versión recibida (`v0-recibida`) | Hecho. Los commits ya salen a tu nombre y correo. |
-| Preparar el almacenamiento en memoria para las pruebas | Hecho, commit `3aa8ee5`. |
+| Preparar el almacenamiento en memoria para las pruebas | Hecho, commit `7f34023`. |
 | BUG-001: reproducir con una prueba, corregir y fusionar | Resuelto. |
 | BUG-002: reproducir con una prueba, corregir y fusionar | Resuelto. |
 | BUG-003: reproducir con una prueba, corregir y fusionar | Resuelto. |
@@ -105,13 +105,13 @@ Solo se modificó un archivo de la app: `lib/services/gestor_incidencias.dart`. 
 
 | Ticket | Archivos y motivo | Commits |
 |---|---|---|
-| (soporte) | `test/soporte/almacen_en_memoria.dart` y `pubspec.yaml`: almacenamiento en memoria para simular "cerrar y reabrir" en las pruebas | `3aa8ee5` |
-| BUG-001 | `test/bug_001_persistencia_test.dart`: prueba que reproduce el fallo | `de3f7f6` |
-| BUG-001 | `lib/services/gestor_incidencias.dart` → `cambiarEstado()` ahora guarda | `5cb7019` (merge `ba45599`) |
-| BUG-002 | `test/bug_002_busqueda_test.dart`: prueba que reproduce el fallo | `77de48e` |
-| BUG-002 | `lib/services/gestor_incidencias.dart` → `buscar()` | `a487628` (merge `53b5fc0`) |
-| BUG-003 | `test/bug_003_contadores_test.dart`: prueba que reproduce el fallo | `765e942` |
-| BUG-003 | `lib/services/gestor_incidencias.dart` → se elimina `cantidadPendientes` y se cambia `contar()` | `56c8d1e` (merge `5435f65`) |
+| (soporte) | `test/soporte/almacen_en_memoria.dart` y `pubspec.yaml`: almacenamiento en memoria para simular "cerrar y reabrir" en las pruebas | `7f34023` |
+| BUG-001 | `test/bug_001_persistencia_test.dart`: prueba que reproduce el fallo | `5c7e81b` |
+| BUG-001 | `lib/services/gestor_incidencias.dart` → `cambiarEstado()` ahora guarda | `c20439e` (merge `528df7f`) |
+| BUG-002 | `test/bug_002_busqueda_test.dart`: prueba que reproduce el fallo | `bebc3e6` |
+| BUG-002 | `lib/services/gestor_incidencias.dart` → `buscar()` | `2fbe718` (merge `b52771f`) |
+| BUG-003 | `test/bug_003_contadores_test.dart`: prueba que reproduce el fallo | `8bc3e55` |
+| BUG-003 | `lib/services/gestor_incidencias.dart` → se elimina `cantidadPendientes` y se cambia `contar()` | `b981d67` (merge `54cfd9d`) |
 
 **Cómo se trabajó con Git:**
 - La versión recibida quedó con la etiqueta `v0-recibida`.
@@ -234,6 +234,6 @@ Aquí sí usaste IA, y la guía exige declararlo con honestidad. Datos reales pa
 cd ~/Documents/nexasoft_incidencias
 flutter test                    # corre las 13 pruebas
 git log --oneline --graph       # historial por ticket
-git show 5cb7019                # ver el cambio exacto de BUG-001
+git show c20439e                # ver el cambio exacto de BUG-001
 git diff v0-recibida main -- lib/   # todo lo que cambió en la app
 ```
