@@ -1,0 +1,7 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_002_busqueda_test.dart
+00:00 +0: "wifi" en minúsculas encuentra "WiFi intermitente en recepción"
+00:00 +1: "WiFi" con mayúsculas también la encuentra
+00:00 +2: "túnel" solo aparece en la descripción de la VPN y la encuentra
+00:00 +3: Ignora espacios sobrantes al inicio y al final
+00:00 +4: Sin texto muestra todos los registros
+00:00 +5: All tests passed!
