@@ -1,0 +1,10 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart
+00:00 +0: Una incidencia nueva se crea con prioridad Alta y se conserva al reiniciar
+00:00 +1: Si no se elige prioridad al crear, se usa Media
+00:00 +2: Cambiar la prioridad desde el detalle se conserva al reiniciar
+00:00 +3: Cambiar la prioridad no altera el estado ni los demás registros
+00:00 +4: Los datos de ejemplo (sin prioridad) abren con prioridad Media
+00:00 +5: Registros guardados por la versión anterior abren sin fallar y con Media
+00:00 +6: Valores fuera de Baja, Media o Alta se tratan como Media al leer
+00:00 +7: No se permite guardar una prioridad no aprobada
+00:00 +8: All tests passed!

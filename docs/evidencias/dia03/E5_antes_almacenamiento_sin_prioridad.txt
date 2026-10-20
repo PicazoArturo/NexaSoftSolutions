@@ -1,0 +1,16 @@
+Contenido del almacenamiento local (localStorage, clave nexasoft_incidencias_v1)
+leído en el navegador con la versión anterior a FEAT-001, el 19/10/2026.
+
+registros: 11
+algún registro tiene "prioridad": false
+
+Primer registro (creado con la versión anterior):
+{
+  "categoria": "Software",
+  "cliente": "Cliente ficticio",
+  "descripcion": "Creado con la version anterior para probar datos antiguos.",
+  "estado": "Pendiente",
+  "fecha": "2026-10-19",
+  "id": "INC-1792472713886000",
+  "titulo": "Registro previo sin prioridad"
+}

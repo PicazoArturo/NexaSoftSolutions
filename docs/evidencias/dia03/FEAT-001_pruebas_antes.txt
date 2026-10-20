@@ -1,0 +1,159 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart
+test/feat_001_prioridad_test.dart:18:9: Error: No named parameter with the name 'prioridad'.
+        prioridad: 'Alta');
+        ^^^^^^^^^
+test/feat_001_prioridad_test.dart:20:27: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.porId(id)!.prioridad, 'Alta');
+                          ^^^^^^^^^
+test/feat_001_prioridad_test.dart:23:33: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(reabierta.porId(id)!.prioridad, 'Alta');
+                                ^^^^^^^^^
+test/feat_001_prioridad_test.dart:29:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.incidencias.first.prioridad, 'Media');
+                                 ^^^^^^^^^
+test/feat_001_prioridad_test.dart:35:15: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+ - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+    await app.cambiarPrioridad('INC-101', 'Baja');
+              ^^^^^^^^^^^^^^^^
+test/feat_001_prioridad_test.dart:36:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.porId('INC-101')!.prioridad, 'Baja');
+                                 ^^^^^^^^^
+test/feat_001_prioridad_test.dart:39:40: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(reabierta.porId('INC-101')!.prioridad, 'Baja');
+                                       ^^^^^^^^^
+test/feat_001_prioridad_test.dart:46:63: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      for (final x in app.incidencias) x.id: '${x.estado}|${x.prioridad}'
+                                                              ^^^^^^^^^
+test/feat_001_prioridad_test.dart:49:15: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+ - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+    await app.cambiarPrioridad('INC-103', 'Alta');
+              ^^^^^^^^^^^^^^^^
+test/feat_001_prioridad_test.dart:55:31: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect('${x.estado}|${x.prioridad}', esperado, reason: x.id);
+                              ^^^^^^^^^
+test/feat_001_prioridad_test.dart:63:43: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.incidencias.every((x) => x.prioridad == 'Media'), isTrue);
+                                          ^^^^^^^^^
+test/feat_001_prioridad_test.dart:85:36: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.porId('INC-VIEJO')!.prioridad, 'Media');
+                                   ^^^^^^^^^
+test/feat_001_prioridad_test.dart:92:16: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(x.prioridad, 'Media', reason: '$valor');
+               ^^^^^^^^^
+test/feat_001_prioridad_test.dart:98:22: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+ - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+    expect(() => app.cambiarPrioridad('INC-101', 'Urgente'),
+                     ^^^^^^^^^^^^^^^^
+test/feat_001_prioridad_test.dart:101:52: Error: No named parameter with the name 'prioridad'.
+        () => app.crear('T', 'D', 'C', 'Software', prioridad: 'Crítica'),
+                                                   ^^^^^^^^^
+test/feat_001_prioridad_test.dart:103:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+ - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+    expect(app.porId('INC-101')!.prioridad, 'Media');
+                                 ^^^^^^^^^
+00:00 +0 -1: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart [E]
+  Failed to load "/Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart":
+  Compilation failed for testPath=/Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart: test/feat_001_prioridad_test.dart:18:9: Error: No named parameter with the name 'prioridad'.
+          prioridad: 'Alta');
+          ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:20:27: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.porId(id)!.prioridad, 'Alta');
+                            ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:23:33: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(reabierta.porId(id)!.prioridad, 'Alta');
+                                  ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:29:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.incidencias.first.prioridad, 'Media');
+                                   ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:35:15: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+   - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+      await app.cambiarPrioridad('INC-101', 'Baja');
+                ^^^^^^^^^^^^^^^^
+  test/feat_001_prioridad_test.dart:36:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.porId('INC-101')!.prioridad, 'Baja');
+                                   ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:39:40: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(reabierta.porId('INC-101')!.prioridad, 'Baja');
+                                         ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:46:63: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+        for (final x in app.incidencias) x.id: '${x.estado}|${x.prioridad}'
+                                                                ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:49:15: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+   - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+      await app.cambiarPrioridad('INC-103', 'Alta');
+                ^^^^^^^^^^^^^^^^
+  test/feat_001_prioridad_test.dart:55:31: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+        expect('${x.estado}|${x.prioridad}', esperado, reason: x.id);
+                                ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:63:43: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.incidencias.every((x) => x.prioridad == 'Media'), isTrue);
+                                            ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:85:36: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.porId('INC-VIEJO')!.prioridad, 'Media');
+                                     ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:92:16: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+        expect(x.prioridad, 'Media', reason: '$valor');
+                 ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:98:22: Error: The method 'cambiarPrioridad' isn't defined for the type 'GestorIncidencias'.
+   - 'GestorIncidencias' is from 'package:nexasoft_incidencias/services/gestor_incidencias.dart' ('lib/services/gestor_incidencias.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambiarPrioridad'.
+      expect(() => app.cambiarPrioridad('INC-101', 'Urgente'),
+                       ^^^^^^^^^^^^^^^^
+  test/feat_001_prioridad_test.dart:101:52: Error: No named parameter with the name 'prioridad'.
+          () => app.crear('T', 'D', 'C', 'Software', prioridad: 'Crítica'),
+                                                     ^^^^^^^^^
+  test/feat_001_prioridad_test.dart:103:34: Error: The getter 'prioridad' isn't defined for the type 'Incidencia'.
+   - 'Incidencia' is from 'package:nexasoft_incidencias/model/incidencia.dart' ('lib/model/incidencia.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'prioridad'.
+      expect(app.porId('INC-101')!.prioridad, 'Media');
+                                   ^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+Failing tests:
+  /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_001_prioridad_test.dart

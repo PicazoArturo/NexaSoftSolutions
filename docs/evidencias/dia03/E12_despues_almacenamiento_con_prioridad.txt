@@ -1,0 +1,15 @@
+Contenido del almacenamiento local (localStorage, clave nexasoft_incidencias_v1)
+leído en el navegador con la versión de FEAT-001, después de recargar la página
+(simula cerrar y volver a abrir la app), el 19/10/2026.
+
+registros: 12
+registros con campo "prioridad": 12
+conteo por prioridad: Alta 1, Baja 1, Media 10
+
+Primeros tres registros:
+- INC-1792472885839000  "Servidor de facturas caido"     Pendiente  Alta   (creado con prioridad Alta)
+- INC-1792472713886000  "Registro previo sin prioridad"   Pendiente  Media  (creado con la versión anterior)
+- INC-101               "Impresora del almacén no responde" Pendiente Baja  (prioridad cambiada desde el detalle)
+
+Nota: al guardar por primera vez con la versión nueva, los registros antiguos se
+escriben ya con "prioridad": "Media"; no se perdió ninguno (11 antes + 1 nuevo = 12).
