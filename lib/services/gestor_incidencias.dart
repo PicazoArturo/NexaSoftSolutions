@@ -2,6 +2,9 @@ import '../data/almacen_local.dart';
 import '../model/incidencia.dart';
 
 class GestorIncidencias {
+  static const todosLosEstados = 'Todos';
+  static const todasLasPrioridades = 'Todas';
+
   final AlmacenLocal datos = AlmacenLocal();
   List<Incidencia> incidencias = [];
 
@@ -9,14 +12,25 @@ class GestorIncidencias {
     incidencias = await datos.leer();
   }
 
-  List<Incidencia> buscar(String texto) {
+  List<Incidencia> buscar(String texto) => filtrar(texto: texto);
+
+  /// Aplica a la vez todas las condiciones activas. 'Todos' / 'Todas' y un
+  /// texto vacío no descartan registros.
+  List<Incidencia> filtrar({
+    String texto = '',
+    String estado = todosLosEstados,
+    String prioridad = todasLasPrioridades,
+  }) {
     final consulta = texto.trim().toLowerCase();
-    if (consulta.isEmpty) return incidencias;
-    return incidencias
-        .where((x) =>
-            x.titulo.toLowerCase().contains(consulta) ||
-            x.descripcion.toLowerCase().contains(consulta))
-        .toList();
+    return incidencias.where((x) {
+      final coincideTexto = consulta.isEmpty ||
+          x.titulo.toLowerCase().contains(consulta) ||
+          x.descripcion.toLowerCase().contains(consulta);
+      final coincideEstado = estado == todosLosEstados || x.estado == estado;
+      final coincidePrioridad =
+          prioridad == todasLasPrioridades || x.prioridad == prioridad;
+      return coincideTexto && coincideEstado && coincidePrioridad;
+    }).toList();
   }
 
   Incidencia? porId(String id) {
