@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nexasoft_incidencias/services/gestor_incidencias.dart';
 import 'package:shared_preferences_platform_interface/in_memory_shared_preferences_async.dart';
@@ -9,6 +10,9 @@ void usarAlmacenEnMemoria() {
   TestWidgetsFlutterBinding.ensureInitialized();
   SharedPreferencesAsyncPlatform.instance =
       InMemorySharedPreferencesAsync.empty();
+  // rootBundle guarda en caché la lectura del JSON; en pruebas de pantalla esa
+  // lectura queda ligada a la prueba anterior y nunca termina.
+  rootBundle.clear();
 }
 
 /// Simula cerrar y volver a abrir la app: un gestor nuevo que lee

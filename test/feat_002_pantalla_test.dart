@@ -13,8 +13,14 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(900, 1400));
     addTearDown(() => tester.binding.setSurfaceSize(null));
     await tester.pumpWidget(const MaterialApp(home: PantallaPrincipal()));
-    await tester.runAsync(() => Future<void>.delayed(
-        const Duration(milliseconds: 100)));
+    // La carga lee el JSON y el almacenamiento de forma asíncrona real.
+    for (var i = 0;
+        i < 50 && find.byType(CircularProgressIndicator).evaluate().isNotEmpty;
+        i++) {
+      await tester.runAsync(
+          () => Future<void>.delayed(const Duration(milliseconds: 20)));
+      await tester.pump();
+    }
     await tester.pumpAndSettle();
   }
 
