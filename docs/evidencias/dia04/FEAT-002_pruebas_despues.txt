@@ -1,0 +1,11 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart
+00:00 +0: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Sin texto ni filtros (Todos / Todas) aparecen todos los registros
+00:00 +1: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +2: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +3: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +4: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +5: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +6: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +7: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +8: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Filtro de prioridad sin texto
+00:01 +9: All tests passed!

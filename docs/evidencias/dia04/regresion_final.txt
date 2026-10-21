@@ -1,0 +1,32 @@
+00:00 +0: loading /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart
+00:00 +0: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Sin texto ni filtros (Todos / Todas) aparecen todos los registros
+00:00 +1: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Filtro de estado: Pendiente, En proceso y Resuelta
+00:00 +2: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Filtro de prioridad: Baja, Media y Alta
+00:00 +3: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Estado y prioridad se aplican juntos
+00:00 +4: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Texto, estado y prioridad se aplican juntos
+00:00 +5: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Una combinación sin coincidencias devuelve una lista vacía
+00:00 +6: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_filtros_test.dart: Los filtros no cambian los totales del tablero
+00:00 +7: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/widget_test.dart: Una incidencia antigua puede convertirse desde JSON
+00:00 +8: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/bug_002_busqueda_test.dart: "wifi" en minúsculas encuentra "WiFi intermitente en recepción"
+00:00 +9: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +10: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +11: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +12: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +13: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +14: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +15: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +16: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +17: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +18: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +19: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +20: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +21: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +22: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +23: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +24: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +25: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +26: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +27: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:00 +28: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Texto + estado + prioridad, luego Limpiar restablece todo
+00:01 +29: /Users/arturopicazozaragoza/Documents/nexasoft_incidencias/test/feat_002_pantalla_test.dart: Filtro de prioridad sin texto
+00:01 +30: All tests passed!
