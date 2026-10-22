@@ -7,7 +7,7 @@ import 'soporte/almacen_en_memoria.dart';
 void main() {
   setUp(usarAlmacenEnMemoria);
 
-  // Conteo manual directo sobre la lista, para comparar con el tablero.
+  // contar a mano para comparar con el tablero
   int contarAMano(GestorIncidencias app, String estado) =>
       app.incidencias.where((x) => x.estado == estado).length;
 
