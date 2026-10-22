@@ -65,7 +65,7 @@ void main() {
 
   test('Registros guardados por la versión anterior abren sin fallar y con '
       'Media', () async {
-    // Formato exacto que guardaba la app antes de FEAT-001: sin "prioridad".
+    // asi se guardaba antes, sin prioridad
     await SharedPreferencesAsync().setString(
       'nexasoft_incidencias_v1',
       jsonEncode([

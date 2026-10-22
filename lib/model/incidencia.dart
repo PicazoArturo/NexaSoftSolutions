@@ -23,8 +23,7 @@ class Incidencia {
     this.prioridad = prioridadPorDefecto,
   });
 
-  /// Registros anteriores a FEAT-001 no traen prioridad; cualquier valor
-  /// ausente o fuera de los aprobados se lee como Media.
+  // los registros viejos no traen prioridad, se usa Media
   static String normalizarPrioridad(Object? valor) {
     return prioridades.contains(valor) ? valor as String : prioridadPorDefecto;
   }

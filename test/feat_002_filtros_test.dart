@@ -10,8 +10,7 @@ void main() {
 
   List<String> ids(List<Incidencia> lista) => lista.map((x) => x.id).toList();
 
-  // Datos de ejemplo + INC-101 e INC-103 (Pendiente) y INC-102 (En proceso)
-  // en prioridad Alta, igual que en las capturas del día 4.
+  // INC-101, 102 y 103 en Alta
   Future<GestorIncidencias> appConPrioridades() async {
     final app = await reabrirApp();
     for (final id in ['INC-101', 'INC-102', 'INC-103']) {
@@ -55,13 +54,11 @@ void main() {
 
   test('Texto, estado y prioridad se aplican juntos', () async {
     final app = await appConPrioridades();
-    // "pantalla" sola da INC-103 e INC-110; con Pendiente + Alta solo INC-103.
     expect(ids(app.filtrar(texto: 'pantalla')), ['INC-103', 'INC-110']);
     expect(
         ids(app.filtrar(
             texto: 'pantalla', estado: 'Pendiente', prioridad: 'Alta')),
         ['INC-103']);
-    // El texto sigue buscando en la descripción y sin distinguir mayúsculas.
     expect(
         ids(app.filtrar(
             texto: ' TÚNEL ', estado: 'En proceso', prioridad: 'Media')),

@@ -4,8 +4,7 @@ import 'package:nexasoft_incidencias/ui/pantalla_principal.dart';
 
 import 'soporte/almacen_en_memoria.dart';
 
-// FEAT-002: la pantalla principal combina filtros, los restablece y avisa
-// cuando no hay resultados.
+// FEAT-002: filtros en la pantalla principal
 void main() {
   setUp(usarAlmacenEnMemoria);
 
@@ -13,7 +12,7 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(900, 1400));
     addTearDown(() => tester.binding.setSurfaceSize(null));
     await tester.pumpWidget(const MaterialApp(home: PantallaPrincipal()));
-    // La carga lee el JSON y el almacenamiento de forma asíncrona real.
+    // esperar a que termine de cargar
     for (var i = 0;
         i < 50 && find.byType(CircularProgressIndicator).evaluate().isNotEmpty;
         i++) {

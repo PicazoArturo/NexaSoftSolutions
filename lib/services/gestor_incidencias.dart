@@ -14,8 +14,7 @@ class GestorIncidencias {
 
   List<Incidencia> buscar(String texto) => filtrar(texto: texto);
 
-  /// Aplica a la vez todas las condiciones activas. 'Todos' / 'Todas' y un
-  /// texto vacío no descartan registros.
+  // texto, estado y prioridad juntos
   List<Incidencia> filtrar({
     String texto = '',
     String estado = todosLosEstados,
@@ -40,7 +39,6 @@ class GestorIncidencias {
     return null;
   }
 
-  // Se calcula siempre desde la lista completa, no desde la búsqueda.
   int contar(String estado) {
     return incidencias.where((x) => x.estado == estado).length;
   }
